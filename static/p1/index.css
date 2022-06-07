@@ -1,10 +1,23 @@
-.pol {
-    /* background-image: url('./tech2.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(to right, rgb(4, 4, 27), rgb(102, 102, 146)); */
-    background-color: transparent;
+
+@media screen and (min-width: 770px) {
+    .pol{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color: transparent;
+    }
+   
+}
+
+@media screen and (max-width: 770px) {
+    .pol{
+        margin-top: 30%;
+        padding-top: 30%;
+        padding-bottom: 30%;
+        margin-bottom: 30%;
+        background-color: transparent;
+
+    }
+   
 }
 
 
