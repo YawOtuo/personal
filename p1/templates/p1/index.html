@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'p1/index.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4855803939786143"
@@ -26,7 +27,7 @@
     <title>Document</title>
 </head>
 
-<body class="body">
+<body class="body container">
     <div class="main">
         <div class="container my-5 py-5">
             <div class="row align-items-center justify-content-center pol  homeMessage padding_y_10">
@@ -41,35 +42,41 @@
         </div>
         <div class="row align-items-center justify-content-center my-5 py-5">
             <div class="col-lg-12">
-                <h1>Portfolio</h1>
+                <h1>Projects</h1>
                 <div class="container">
                     <div class="row mt-5 pt-5 ">
                         <div class="col-sm-3">
+                            <a href="https://afbr-80930.web.app/" target="_blank" class="project_link">
                             African Bully Registry
                             <div class="my-5">
-                                <img src="{% static 'p1/afbr1.jpg' %}" class="port_image img-responsive img-fluid ">
 
+                                <img src="{% static 'p1/afbr1.png' %}" class="port_image img-responsive img-fluid ">
+                            
                             </div>
-
+                        </a>
                         </div>
                         <div class="col-sm-3 ">
-                            Movie Watch
-                            <div  class="my-5">
-                                <img src="{% static 'p1/mw1.jpg' %}" class="port_image img-responsive img-fluid">
-
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
+                            <a href="http://clipmasksterl.herokuapp.com/" target="_blank" class="project_link">
                             Clipmask
-                            <div  class="my-5">
-                                <img src="{% static 'p1/clip2.jpg' %}" class="port_image img-responsive img-fluid">
-
+                            <div class="my-5">
+                                <img src="{% static 'p1/hung1.png' %}" class=" port_image img-responsive img-fluid">
                             </div>
+                            </a>
+                            
                         </div>
                         <div class="col-sm-3">
-                            More 
-                            <div  class="my-5">
-                                <img src="{% static 'p1/more1.jfif' %}" class="port_image img-responsive img-fluid">
+                            <a href="https://github.com/YawOtuo/movieWatch" target="_blank" class="project_link">
+                            MovieWatch
+                            <div class="my-5">
+                                <img src="{% static 'p1/mw1.png' %}" class=" port_image img-responsive img-fluid">
+
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            More
+                            <div class="my-5">
+                                <img src="{% static 'p1/more1.png' %}" class="port_image img-responsive img-fluid">
 
                             </div>
                         </div>
@@ -81,25 +88,51 @@
             <div class="col-lg-12">
                 <h1>About</h1>
                 <div class="container">
-                    <div class="row my-5 py-5">
-                        <div class="col-sm-12">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam temporibus, exercitationem
-                            minus iusto quod soluta excepturi eveniet debitis maiores nostrum sint aliquid. Quibusdam,
-                            alias? Laudantium praesentium ad eos sequi iste!
+                    <div class="row my-5 pb-5 px-5">
+                        <div class="col-sm-12" style="line-height: 2.0">
+                            <p>Tech-savvy Full Stack Web Developer proficient in fundamental front-end languages and
+                                server-side languages. In-depth knowledge of React, Django, Nodejs, Flask. Analytical
+                                and precise professional with 2 years of hands-on experience taking charge of front and
+                                back-end web development.
+                            </p>
+                            <p>
+                                Skillful creating servers and databases for functionality and designing and developing
+                                APIs.
+                                Hardworking collaborator with track record of superior results. Passionate developer and
+                                Artificial Intelligence Enthusiast.
+                            </p>
+                            <div class="mt-5 pt-5">
+                                <p class="mt-5 pt-5"><img src="{% static 'p1/educ1.png' %}" width="3%" height=""
+                                        class="educ_image img-responsive img-fluid" alt="">
+                                    EDUCATION: <b>Kwame Nkrumah University of Science And Technology </b>
+                                    <small>2021 - 2025</small><small>&nbsp;BsC Computer Engineering</small>
+                                </p>
+                                <p><img src="{% static 'p1/exp4.png' %}" width="3%" height=""
+                                        class="educ_image  img-responsive img-fluid" alt="">
+                                    EXPERIENCE: <b>African Bully Registry</b>
+                                    <small>2021 - Present</small><small>&nbsp;Senior Full Stack Engineer</small>
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row align-items-center justify-content-center my-5 py-5">
+        <div class="row align-items-center justify-content-center my-5 ">
             <div class="col-lg-12">
-                <h1>Contact</h1>
+                <h1>Contact Me</h1>
                 <div class="container">
-                    <div class="row my-5 py-5">
+                    <div class="row my-5">
                         <div class="col-sm-12">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam temporibus, exercitationem
-                            minus iusto quod soluta excepturi eveniet debitis maiores nostrum sint aliquid. Quibusdam,
-                            alias? Laudantium praesentium ad eos sequi iste!
+                            <a href="#" target="_blank" class="fa fa-facebook"></a>
+                            <a href="#"target="_blank" class="fa fa-twitter"></a>
+                            <a href="#" target="_blank" class="fa fa-instagram"></a>
+                            <a href="https://www.linkedin.com/in/yaw-otuo-30383b102" target="_blank" class="fa fa-linkedin"></a>
+                            <a href="mailto:yotuo2003@gmail.com" class="fa fa-envelope"></a>
+                            
+                            <a href="#"target="_blank" class="fa fa-phone">+233203775123</a>
+
                         </div>
                     </div>
                 </div>
