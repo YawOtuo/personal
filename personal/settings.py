@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ev%6a-6ow$q+ui3tsw!bh^=cr#6@0y+91#pf&ocr$%((s@91e=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yawotuo.dev', 'www.yawotuo.dev']
 
 
 # Application definition
