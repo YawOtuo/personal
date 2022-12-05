@@ -15,7 +15,7 @@ et-xmlfile==1.1.0
 greenlet==1.1.2
 gunicorn==20.1.0
 idna==3.3
-importlib-metadata==4.11.3
+importlib-metadata
 itsdangerous==2.1.2
 Mako==1.2.0
 MouseInfo==0.1.3
