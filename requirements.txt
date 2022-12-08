@@ -8,7 +8,6 @@ Django
 django-bootstrap-datepicker-plus
 django-bootstrap4
 django-crispy-forms
-django-heroku
 djlint==0.7.6
 et-xmlfile==1.1.0
 
