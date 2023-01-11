@@ -61,3 +61,7 @@
   .project_link{
       color: white;
   }
+
+  .view_height_100{
+    height: 100vh;
+  }
