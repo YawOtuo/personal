@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ev%6a-6ow$q+ui3tsw!bh^=cr#6@0y+91#pf&ocr$%((s@91e=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['yawotuo.dev', 'www.yawotuo.dev']
+ALLOWED_HOSTS = ['yawotuo.dev', 'www.yawotuo.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -118,10 +118,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-# STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR, 'static'),
-# )
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = ''
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 MEDIA_ROOT= os.path.join(BASE_DIR, 'media/')
 MEDIA_URL= "/media/"
 
